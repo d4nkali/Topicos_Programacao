@@ -1,8 +1,3 @@
-# Exodia
-Um repositório ai.
+# UNIESP_Topicos_Programacao_p1
 
--. .- -.. .- / .- --.- ..- ..
-
-Sistemas Pra Internet - P1B 2023.2
-
-Aluno: Danilo Pereira Viana
+Repositório com o conteúdo da matéria de **Tópicos Essenciais à Programação**.
