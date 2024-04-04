@@ -18,11 +18,11 @@ O **Git** é um sistema de controle de versão de arquivos onde registra as alte
 
 ## Configurando o **Git** com *.gitconfig*
 
-Para enviar as modificações e começar a trabalhar com o **git**, é inportante configuralo atravez de um arquivo na raiz do seu usuario chamado de *.gitconfig* e para configura  voce pode usar um editor de texto ou os comandos:
+Para enviar as modificações e começar a trabalhar com o **Git**, é importante configurá-lo atravez de um arquivo na raiz do seu usuário chamado de *.gitconfig* e para configurar esse arquivo, você pode usar um editor de texto ou os comandos:
 
-* `git config  —global user.name “Nome da sua conta”`: Configura o nome de usuario.
+* `git config  —global user.name “Nome da sua conta”`: Configura o nome de usuário.
 
-* `git config —global user.email “Nome do email”`: Configura o email do usuario.
+* `git config —global user.email “Nome do email”`: Configura o email do usuário.
 
 * `git config —list`: Lista as configurações.
 
@@ -83,3 +83,26 @@ Para enviar as modificações e começar a trabalhar com o **git**, é inportant
 
 * `git help`: Exibe a documentação do git ou de um comando especifico.
 
+
+## Adicionando Coautores em um *commit*
+
+Para poder adicionar um coautor a um *commit*, você deve saber o email e nome de usuário do **Git** dele; se ele utiliza email privado do **GitHub,** use o email *no-reply*. Apos isso coletar as informações, siga esses passos:
+
+1. Escreva a mensagem do *commit* e depois em vez de inserir aspas para encerrar, adicione duas linhas vazias. Ex:
+
+        git commit -m "Mensagem.
+        >
+        >
+
+2. Na proxima linha adicione `Co-authored-by: name <name@example.com>` e substitua com as informações do coautor. Se tiver mais coautores, de a cada um a linha própria sem deixar linhas vazias entre um e outro. Apos digitar a quantidade que quiser de coautores, feche as aspas duplas. Ex: 
+
+        git commit -m "Mensagem.
+        >
+        >
+        Co-authored-by: coautor1 <coautor1@example.com>
+        Co-authored-by: coautor2 <coautor@example.com>"
+
+
+## O que é **GitHub**?
+
+O **GitHub** é uma plataforma de hospedagem de codigo-fonte e arquivos usando o **Git**, permintindo que usuários da plataforma possam criar e contribuir com projetos privados ou *open source* de qualquer lugar do mundo.
