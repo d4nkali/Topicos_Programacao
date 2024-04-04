@@ -26,3 +26,60 @@ Para enviar as modificações e começar a trabalhar com o **git**, é inportant
 
 * `git config —list`: Lista as configurações.
 
+
+## Comandos Básicos do **Git**
+
+* `git init`: Inicia o **Git** e cria um repositório.
+
+* `git clone`: Baixa o repositório online para trabalhar localmente.
+
+* `git fetch`: Atualiza o repositório para ver alterações, mas não aplica elas.
+
+* `git status`: Exibe o estado do repositório.
+
+* `git pull`: Baixa as mudanças do repositório.
+
+* `git add`: Adiciona as modificações do repositório desde um arquivo novo, arquivo excluído, arquivo modificado, novo diretório e remover diretório. Ex: git add arquivo.txt (**OBS**: Para adicionar todas as modificações de uma vez, digite `git add .`).
+
+* `git rm`: Remove um arquivo do **Git**. Ex: `git rm arquivo.txt`. (**OBS:** Pode também deletar do disco.).
+
+* `git rm –m`: Remove um diretório do **Git**. (**OBS:** Pode também deletar do disco.).
+
+* `git commit -m`: Escreve uma mensagem e prepara a modificação para ser enviada ao repositório.
+
+* `git push`: Envia os _commits_ para o repositório.
+
+* `git _branch_`: Lista as _branch_ locais.
+
+* `git push —set-upstream origin “Nome da branch”`: Define o repositório remoto e link com a _branch_ local. (**OBS**: Ele cria automaticamente a _branch_ remota caso não tenha criado.).
+
+* `git branch “Nome da branch”`: Cria uma nova _branch_ local.
+
+* `git branch –d “Nome da branch”`: Exclui a _branch_ local.
+
+* `git checkout “Nome da branch”`: Muda de _branch_ local.
+
+* `git remote`: Exibe as _branch_ remota.
+
+* `git remote remove`: Exclui _branch_ remota.
+
+* `git merge “Nome da branch”`: Faz a mescla de uma _branch_ na atual.
+
+* `git log`: Mostra o histórico dos _commits_.
+
+* `git commit —ammend`: Modifica o ultimo _commit_. (**OBS:** Ira abrir um editor de texto para modificar o _commit_.).
+
+* `git commit —amend –m “Nova mensagem”`: Modifica somente a mensagem do ultimo _commit_.
+
+* `git revert “Hash do commit para voltar”`: Cria um novo _commit_ apartir de um _commit_ antigo.
+
+* `git tag “Nome da tag”`: Cria uma _tag_ simples.
+
+* `git tag –a “Nome da tag” –m`: Cria uma _tag_ com mensagem.
+
+* `git push —tags`: Envia as _tags_ para o remoto.
+
+* `git tag -d`: Exclui uma _tag_.
+
+* `git help`: Exibe a documentação do git ou de um comando especifico.
+
