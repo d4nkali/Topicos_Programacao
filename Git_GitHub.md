@@ -11,14 +11,14 @@ O **Git** é um sistema de controle de versão de arquivos onde registra as alte
 
 * *Index / staged* (Preparado)
 
-* *Comitted* (Consolidado)
+* *Committed* (Consolidado)
 
 * *Untracked* (Não rastreado)
 
 
 ## Configurando o **Git** com *.gitconfig*
 
-Para enviar as modificações e começar a trabalhar com o **Git**, é importante configurá-lo atravez de um arquivo na raiz do seu usuário chamado de *.gitconfig* e para configurar esse arquivo, você pode usar um editor de texto ou os comandos:
+Para enviar as modificações e começar a trabalhar com o **Git**, é importante configurá-lo através de um arquivo na raiz do seu usuário chamado de *.gitconfig* e para configurar esse arquivo, você pode usar um editor de texto ou os comandos:
 
 * `git config  —global user.name “Nome da sua conta”`: Configura o nome de usuário.
 
@@ -67,11 +67,11 @@ Para enviar as modificações e começar a trabalhar com o **Git**, é important
 
 * `git log`: Mostra o histórico dos _commits_.
 
-* `git commit —ammend`: Modifica o ultimo _commit_. (**OBS:** Ira abrir um editor de texto para modificar o _commit_.).
+* `git commit —amend`: Modifica o ultimo _commit_. (**OBS:** Ira abrir um editor de texto para modificar o _commit_.).
 
 * `git commit —amend –m “Nova mensagem”`: Modifica somente a mensagem do ultimo _commit_.
 
-* `git revert “Hash do commit para voltar”`: Cria um novo _commit_ apartir de um _commit_ antigo.
+* `git revert “Hash do commit para voltar”`: Cria um novo _commit_ a partir de um _commit_ antigo.
 
 * `git tag “Nome da tag”`: Cria uma _tag_ simples.
 
@@ -105,4 +105,4 @@ Para poder adicionar um coautor a um *commit*, você deve saber o email e nome d
 
 ## O que é **GitHub**?
 
-O **GitHub** é uma plataforma de hospedagem de codigo-fonte e arquivos usando o **Git**, permintindo que usuários da plataforma possam criar e contribuir com projetos privados ou *open source* de qualquer lugar do mundo.
+O **GitHub** é uma plataforma de hospedagem de código-fonte e arquivos usando o **Git**, permitindo que usuários da plataforma possam criar e contribuir com projetos privados ou *open source* de qualquer lugar do mundo.
