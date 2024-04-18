@@ -51,7 +51,7 @@ Para enviar as modificações e começar a trabalhar com o **Git**, é important
 
 * `git _branch_`: Lista as _branch_ locais.
 
-* `git push —set-upstream origin “Nome da branch”`: Define o repositório remoto e link com a _branch_ local. (**OBS**: Ele cria automaticamente a _branch_ remota caso não tenha criado.).
+* `git push -u origin "Nome da branch"` ou `git push —set-upstream origin “Nome da branch”`: Define o repositório remoto e link com a _branch_ local. (**OBS**: Ele cria automaticamente a _branch_ remota caso não tenha criado.).
 
 * `git branch “Nome da branch”`: Cria uma nova _branch_ local.
 
