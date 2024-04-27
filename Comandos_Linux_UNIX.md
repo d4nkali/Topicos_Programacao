@@ -1,4 +1,4 @@
-## Comandos Básicos para Linux/UNIX
+# Comandos Básicos para Linux/UNIX
 
 * ``pwd``: Informa qual o diretório atual.
 

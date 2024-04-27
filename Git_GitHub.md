@@ -27,7 +27,7 @@ Para enviar as modificações e começar a trabalhar com o **Git**, é important
 * `git config —list`: Lista as configurações.
 
 
-## Comandos Básicos do **Git**
+## Comandos do **Git**
 
 * `git init`: Inicia o **Git** e cria um repositório.
 
@@ -56,6 +56,8 @@ Para enviar as modificações e começar a trabalhar com o **Git**, é important
 * `git branch “Nome da branch”`: Cria uma nova _branch_ local.
 
 * `git branch –d “Nome da branch”`: Exclui a _branch_ local.
+
+* `git branch -M "Nome da branch" "Novo nome da branch"`: Renomeia uma branch local.
 
 * `git checkout “Nome da branch”`: Muda de _branch_ local.
 
@@ -105,4 +107,4 @@ Para poder adicionar um coautor a um *commit*, você deve saber o email e nome d
 
 ## O que é **GitHub**?
 
-O **GitHub** é uma plataforma de hospedagem de código-fonte e arquivos usando o **Git**, permitindo que usuários da plataforma possam criar e contribuir com projetos privados ou *open source* de qualquer lugar do mundo.
+O **GitHub** é uma plataforma de hospedagem de código-fonte e arquivos usando o **Git**, permitindo que usuários da plataforma possam criar e contribuir com projetos privados ou *open source* de qualquer lugar do mundo. O **GitHub** esta disponível nas versões Web (Mais completa e fácil), Desktop (Fácil e intuitivo de usar) e CLI (Terminal).

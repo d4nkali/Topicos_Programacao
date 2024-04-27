@@ -1,4 +1,4 @@
-## Comandos Básicos para CMD/MS-DOS
+# Comandos Básicos para CMD/MS-DOS
 
 * ``dir`` : Amostra arquivas e pastas do diretório atual.
 
