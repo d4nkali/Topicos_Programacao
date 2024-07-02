@@ -26,4 +26,13 @@
 - `flatpak remote-delete`: Remove um repositório;
 - `flatpak --help`: Exibe informações e comandos sobre o **Flatpak**;
 
+## Snap
+
+- `snap find`: Procura pacotes;
+- `snap list`: Lista os **snaps** instalados;
+- `snap install`: Instala pacotes;
+- `snap info`: Exibe informações sobre um pacote;
+- `snap remove`: Remove pacotes;
+- `snap refresh`: Atualiza os pacotes;
+
 ## 
