@@ -35,4 +35,15 @@
 - `snap remove`: Remove pacotes;
 - `snap refresh`: Atualiza os pacotes;
 
-## 
+## WinGet
+
+- `winget search`: Procura pacotes;
+- `winget list`: Lista quantos pacotes tem instalados;
+- `winget info`: Exibe informações sobre o sistema;
+- `winget show`: Exibe informações sobre um pacote;
+- `winget source`: Adiciona, exibe e remove repositórios;
+- `winget install`: Instala pacotes;
+- `winget upgrade`: Atualiza um ou todos os pacotes;
+- `winget uninstall`: Remove pacotes;
+- `winget --help`: Exibe informações sobre o **WinGet**;
+
