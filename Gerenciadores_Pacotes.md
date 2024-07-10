@@ -26,6 +26,17 @@
 - `pacman -R`: Remove os pacotes;
 - `pacman -Rns $(pacman -Qtdq)`: Remove pacotes não necessários;
 
+## PKG (Termux)
+
+- `pkg install`: Baixa os pacotes;
+- `pkg search`: Pesquisa pacotes no repositório;
+- `pkg show`: Exibe detalhes de um pacote;
+- `pkg list-all`: Lista todos os pacotes instalados;
+- `pkg update`: Atualiza os as mudanças nos repositórios;
+- `pkg upgrade`: Atualiza todos os pacotes incluindo os do sistemas;
+- `pkg uninstall`: Remove os pacotes;
+- `pkg autoremove`: Remove pacotes não necessários;
+
 ## Flatpak 
 
 - `flatpak list`: Lista todos os pacotes instalados;
