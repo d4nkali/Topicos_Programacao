@@ -13,6 +13,19 @@
 - `apt remove`: Remove os pacotes;
 - `apt autoremove`: Remove pacotes não necessários;
 
+## Pacman
+
+- `pacman -S`: Baixa os pacotes;
+- `pacman -Ss`: Pesquisa pacotes no repositório;
+- `pacman -Si`: Exibe detalhes de um pacote;
+- `pacman -Q`: Lista todos os pacotes instalados;
+- `pacman -Sy`: Atualiza os as mudanças nos repositórios;
+- `pacman -Su`: Atualiza os pacotes;
+- `pacman -Syu`: Atualiza todos os pacotes incluindo os do sistemas;
+- `pacman -S`: Baixa as dependências dos pacotes;
+- `pacman -R`: Remove os pacotes;
+- `pacman -Rns $(pacman -Qtdq)`: Remove pacotes não necessários;
+
 ## Flatpak 
 
 - `flatpak list`: Lista todos os pacotes instalados;
