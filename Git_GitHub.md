@@ -53,6 +53,8 @@ Para enviar as modificações e começar a trabalhar com o **Git**, é important
 
 * `git push -u origin "Nome da branch"` ou `git push —set-upstream origin “Nome da branch”`: Define o repositório remoto e link com a _branch_ local. (**OBS**: Ele cria automaticamente a _branch_ remota caso não tenha criado.).
 
+* `git push -d origin "Nome da Branch"`: Deleta uma _branch_ remota.
+
 * `git branch “Nome da branch”`: Cria uma nova _branch_ local.
 
 * `git branch –d “Nome da branch”`: Exclui a _branch_ local.
